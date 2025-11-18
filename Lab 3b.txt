@@ -1,0 +1,122 @@
+What command did you use to create a new directory? 
+
+
+
+mkdir
+
+
+
+
+
+How can you view the contents of a file without opening it in a GUI besed text editor? 
+
+
+
+What is the difference between cp and mv commands?
+
+
+
+| Command  | Purpose     | What It Does                                                                                                  |
+
+| -------- | ----------- | ------------------------------------------------------------------------------------------------------------- |
+
+| \*\*`cp`\*\* | Copy        | Creates a duplicate of a file or directory. The original stays in place.                                      |
+
+| \*\*`mv`\*\* | Move/Rename | Moves a file or directory to a new location or renames it. The original is removed from its old location. |
+
+
+
+
+
+cat file.txt
+
+
+
+1\. What information does the free -h command provide?
+
+
+
+The free command in Linux displays information about system memory usage, and the -h option stands for “human-readable”, which shows sizes in KB, MB, or GB instead of bytes.
+
+
+
+
+
+2\. How can you modify the script to monitor network usage?
+
+
+
+If you have a script monitoring memory, you can expand it to track network usage. For example, you can use Linux commands like:
+
+
+
+ifconfig (older systems)
+
+
+
+ip -s link (modern replacement)
+
+
+
+/proc/net/dev (reads raw network statistics)
+
+
+
+This calculates bytes per second transmitted and received by the interface eth0.
+
+
+
+
+
+3\. Why is automating system monitoring beneficial for administrators?
+
+
+
+
+
+1. Early Detection of Issues:
+
+
+
+Alerts administrators to high CPU, memory, or disk usage before it becomes a critical problem.
+
+
+
+2\. Consistency and Reliability:
+
+
+
+Scripts or tools run at scheduled intervals (cron jobs, systemd timers), reducing human error or missed checks.
+
+
+
+3\. Time-Saving:
+
+
+
+Saves admins from manual checks, freeing them to focus on more complex tasks.
+
+
+
+4\. Historical Data \& Trend Analysis:
+
+
+
+Automated monitoring can log data over time, allowing admins to identify trends or predict when upgrades may be needed.
+
+
+
+5\. Automated Responses:
+
+
+
+Monitoring scripts can trigger automatic actions, e.g., restarting a service, clearing cache, or sending notifications.
+
+
+
+6\. Scalability:
+
+
+
+Essential in large environments with many servers, where manual monitoring is impractical.
+

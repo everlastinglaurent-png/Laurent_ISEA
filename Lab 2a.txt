@@ -1,0 +1,408 @@
+Lab 2a - TCO calculation
+
+
+
+Printer:
+
+
+
+Canon PIXMA MG3070S (inkjet)
+
+
+
+Brother HL‑L2460DW (mono laser)
+
+
+
+1\. Assumptions
+
+
+
+Here are the assumptions I’m using (you can change these later):
+
+
+
+Time period: 5 years
+
+
+
+Print volume: 750 pages/week → 5 years = 750 × 52 × 5 = 195,000 pages
+
+
+
+Printer is powered on: 40 hours/week (as per your exercise)
+
+
+
+Electricity cost: Using Singapore household regulated tariff: S$0.2812 / kWh (28.12 cents/kWh)
+
+
+
+Paper cost: Use Canon’s recommended paper cost for MG3070S (A4 80 gsm) = S$7.60 per 500-sheet ream
+
+Canon Singapore
+
+
+
+All print is black for simplicity (i.e., assume mostly text, not heavy color)—so for inkjet, mostly black cartridge usage.
+
+
+
+
+
+2\. Consumables \& Specs / Prices
+
+Canon MG3070S (Inkjet)
+
+
+
+Printer cost: ~ S$97 (Allstars Singapore)
+
+ALLSTARS - ESHOP
+
+
+
+Black ink cartridge (PG-745):
+
+
+
+Standard PG-745 (180 pages): ~ S$27.00
+
+Courts Singapore
+
+
+
+High-yield PG-745XL (300 pages): ~ S$33.00
+
+archercopier
+
+
+
+Color cartridge (CL-746XL): ~ S$48 for 300 pages
+
+Canon Singapore
+
+
+
+Paper cost: S$7.60 / 500 sheet → per page cost = 7.60 / 500 = S$0.0152 / page
+
+
+
+Power consumption: The MG3070S has “Auto Power ON/OFF” from Canon spec sheet.
+
+Canon Singapore
+
+
+
+Let’s assume average power use when ready or idle is 2–3 W (very low for an inkjet). For simplicity, assume 3 W = 0.003 kW.
+
+
+
+Brother HL-L2460DW (Laser)
+
+
+
+Printer cost: S$238 (Brother Singapore)
+
+Brother
+
+
+
+Toner cartridge:
+
+
+
+Use the original Brother TN2560 toner = S$65 (Brother Singapore)
+
+Brother
+
+
+
+Page yield: 1,200 pages per TN2560 (from Brother datasheet)
+
+Brother
+
+
+
+Drum: The drum unit is rated for ~15,000 pages (from Brother spec)
+
+Brother
+
+
+
+Assume drum cost needs to be factored. Suppose a drum unit cost (in Singapore) is around S$70 (just an assumption — real price depends on local supplier).
+
+
+
+Power consumption:
+
+
+
+Ready: ~43 W
+
+Brother
+
+
+
+Sleep: ~3.8 W
+
+Brother
+
+
+
+Assume 40 h/week \* always in “ready” mode (worst-case) for simplicity.
+
+
+
+
+
+3\. Consumption Over 5 Years
+
+Pages Printed
+
+
+
+Total pages = 195,000
+
+
+
+Ink / Toner Usage
+
+
+
+Inkjet (MG3070S)
+
+
+
+Assume use of PG-745XL (higher yield) for black: 300 pages per cartridge.
+
+
+
+Number of black cartridges needed = 195,000 / 300 ≈ 650 cartridges.
+
+
+
+Cost for black ink = 650 × S$33 = S$21,450
+
+
+
+(If color printing is used, you’d similarly calculate number of color cartridges.)
+
+
+
+Laser (HL-L2460DW)
+
+
+
+Toner: 1,200 pages per TN2560 → 195,000 / 1,200 ≈ 163 toner cartridges.
+
+
+
+Toner cost = 163 × S$65 = S$10,595
+
+
+
+Drum: 15,000-page life → 195,000 / 15,000 = 13 drum units (since 13 × 15,000 = 195,000 exactly)
+
+
+
+Drum cost = 13 × S$70 = S$910
+
+
+
+Paper Consumption
+
+
+
+Total pages = 195,000 → number of A4 reams (500 sheets) = 195,000 / 500 = 390 reams
+
+
+
+Cost of paper = 390 × S$7.60 = S$2,964
+
+
+
+Electricity Consumption
+
+
+
+Inkjet MG3070S
+
+
+
+Power draw assumed = 3 W = 0.003 kW
+
+
+
+Hours/week = 40 → weekly kWh = 0.003 \* 40 = 0.12 kWh/week
+
+
+
+Over 5 years: 0.12 \* 52 \* 5 = 31.2 kWh
+
+
+
+Electricity cost = 31.2 \* S$0.2812 = S$8.77
+
+
+
+Laser HL-L2460DW
+
+
+
+Power draw (ready) = 43 W = 0.043 kW
+
+
+
+Hours/week = 40 → weekly kWh = 0.043 \* 40 = 1.72 kWh/week
+
+
+
+Over 5 years: 1.72 \* 52 \* 5 = 447.2 kWh
+
+
+
+Electricity cost = 447.2 \* S$0.2812 ≈ S$125.67
+
+
+
+4\. Total Cost of Ownership (5 Years)
+
+
+
+
+
+Cost Category	        	MG3070S Inkjet		HL-L2460DW Laser
+
+Fixed cost (printer)		S$97			S$238
+
+Ink / Toner cost		~ S$21,450		~ S$10,595
+
+Drum (laser only)		—			S$910
+
+Paper cost			S$2,964			S$2,964
+
+Electricity cost		S$8.77			S$125.67
+
+Total TCO (5 years)		≈ S$24,519.77		≈ S$13,832.67
+
+
+
+5\. Cost Per Page
+
+
+
+Inkjet: S$24,519.77 / 195,000 ≈ S$0.1256 per page
+
+
+
+Laser: S$13,832.67 / 195,000 ≈ S$0.0709 per page
+
+
+
+6\. Analysis and Reflection
+
+
+
+Which printer is “best” by TCO?
+
+
+
+Over 5 years, the laser printer (HL-L2460DW) is much cheaper in total cost and cost per page, despite a higher upfront cost.
+
+
+
+Would the answer change for a home user printing only 5 pages/week?
+
+
+
+Yes — if you only print 5 pages/week, that’s 5 × 52 × 5 = 1,300 pages over 5 years.
+
+
+
+The inkjet’s very low printer cost matters more, and the huge cost of many cartridges disappears because you’d use very few. The laser’s high toner cost doesn’t pay off because you’re not printing enough to amortize it. In that scenario, the inkjet may be more cost-effective overall.
+
+
+
+Other factors besides TCO:
+
+
+
+Print quality: For photos or color graphics, inkjet might be better.
+
+
+
+Reliability: Laser might be more durable for high volume.
+
+
+
+Speed: Laser is generally faster.
+
+
+
+Maintenance: Inkjets may clog if unused for a long time; lasers may require drum replacement.
+
+
+
+Space: Laser printer may be bigger / heavier.
+
+
+
+Connectivity / features: Wi-Fi, duplexing, scanning, etc.
+
+
+
+What to look for in a workgroup printer, knowing cost structure:
+
+
+
+Very high-yield toners (low $/page)
+
+
+
+High duty cycle \& robust build quality
+
+
+
+Network printing features (Ethernet, secure printing)
+
+
+
+Good service contract / warranty
+
+
+
+Duplex printing, large paper tray
+
+
+
+
+
+Breakeven point (when both printers cost the same):
+
+
+
+Set up equation:
+
+
+
+97 + (ink cost per page × 𝑥) + paper cost per page × 𝑥 + electricity cost share = 238
+
+238 + (toner cost per page × 𝑥) + (drum cost per page × 𝑥) + paper cost per page × 𝑥 + laser electricity cost share
+
+
+
+Solve for x (number of pages).
+
+
+
+inkjet cost per page ~ S$0.1256,
+
+laser cost per page ~ S$0.0709
+
+→ the breakeven point is at a relatively low page count, laser is much more cost-efficient at high output.
+
+
+
+
+

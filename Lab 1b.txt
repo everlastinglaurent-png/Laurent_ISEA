@@ -1,0 +1,13 @@
+Lab 1b
+
+Did you get permissions errors when editing /var/www/html/index.html - how might you fix that?
+
+Check permissions and grant yourself permissions to write your file
+
+What is the difference between nano and gedit?
+
+nano is a terminal editor, while gedit is a GUI editor
+nano is better for server work because it is lightweight and does not require a GUI to work
+gedit is better for desktop applications/user-facing applications
+
+
